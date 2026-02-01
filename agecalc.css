@@ -22,8 +22,8 @@ body{
 /* code for sun */
 .sun{
   position:absolute;
-  top:60px;
-  right:80px;
+  top:-150px;
+  right:-150px;
   width:120px;
   height:120px;
   background: radial-gradient(circle, #fff700, #ffb300);
@@ -37,31 +37,6 @@ body{
   to{ box-shadow:0 0 60px rgba(255,200,0,1); }
 }
 
-/*  Rainbow */
-.rainbow{
-  position:absolute;
-  bottom:-150px;
-  width:600px;
-  height:300px;
-  border-radius:300px 300px 0 0;
-  background: linear-gradient(
-    to top,
-    red,
-    orange,
-    yellow,
-    green,
-    blue,
-    indigo,
-    violet
-  );
-  animation: rainbowMove 6s ease-in-out infinite;
-}
-
-@keyframes rainbowMove{
-  0%{ transform:translateY(0); opacity:0.7; }
-  50%{ transform:translateY(-20px); opacity:1; }
-  100%{ transform:translateY(0); opacity:0.7; }
-}
 
 /* App Card */
 .container{
@@ -98,3 +73,4 @@ button{
   border-radius:8px;
   background:#f8fbff;
 }
+
