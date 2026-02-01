@@ -5,7 +5,7 @@
   --text:#222;
 }
 *{box-sizing:border-box}
-body{
+
   body{
   margin:0;
   font-family:system-ui, Segoe UI, Roboto, Arial;
@@ -78,3 +78,4 @@ button:hover{opacity:0.95}
   justify-content:center;
 }
 .error{color:#b00020}
+
