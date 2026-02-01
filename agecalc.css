@@ -6,6 +6,34 @@
 }
 *{box-sizing:border-box}
 body{
+  body{
+  margin:0;
+  font-family:system-ui, Segoe UI, Roboto, Arial;
+  background: linear-gradient(
+    270deg,
+    #ff0000,
+    #ff7f00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #8f00ff
+  );
+  background-size: 1400% 1400%;
+  animation: rainbowBG 12s ease infinite;
+  color:var(--text);
+  display:flex;
+  min-height:100vh;
+  align-items:center;
+  justify-content:center;
+}
+
+@keyframes rainbowBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
   margin:0;
   font-family:system-ui,Segoe UI,Roboto,Arial;
   background:var(--bg);
